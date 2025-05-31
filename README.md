@@ -1,12 +1,64 @@
-# Proyecto Final
+# Final Project: Colon Cancer Detection with Deep Learning
 
-Esta aplicación utiliza un modelo de aprendizaje profundo para ayudar en la detección de cáncer de colon  a partir de imágenes histopatológicas. El modelo se basa en InceptionV3, pre-entrenado en el conjunto de datos ImageNet, y se ha afinado utilizando técnicas de aprendizaje por transferencia para adaptarse a las especificidades de la clasificación del tejido del colon. El conjunto de datos utilizado para el entrenamiento comprende imágenes etiquetadas como benignas o malignas, proporcionando al modelo los ejemplos necesarios para distinguir entre células sanas y cancerosas. Además, la aplicación ofrece información detallada sobre el rendimiento del modelo, incluyendo precisión, métricas de pérdida y matriz de confusión, que ayudan a entender la eficacia y fiabilidad del modelo.
+This application uses a deep learning model to assist in the detection of colon cancer from histopathological images. The model is based on a pre-trained **InceptionV3** architecture adapted for this task.
 
-## Instrucciones de ejecucion
+## Table of Contents
 
-- Contar con un entorno de ejecucion adecuado, como un **cuaderno de jupyter** o **google colab**, para poder hacer la ejecucion del archivo .ipynb
-- Ejecutar todas las secciones de codigo en orden que se encuentran dentro del cuaderno.
-- Una vez se ejecuto todo dirigirse hacia la carpeta donde se encuentra el archivo **Dashboard.py** en la terminal.
-- Instalar todas las dependencias que se encuentran en el archivo **requirements.txt**.
-- Una vez instaladas las dependencias, ejecutar el **Dashboard** usando el comando ```streamlit run Dashboard.py```
-- Abrir la direccion local en su navegador de preferencia y visualizar los resultados.
+- [Description](#description)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Execution Instructions](#execution-instructions)
+- [Project Structure](#project-structure)
+- [Results](#results)
+- [Contributions](#contributions)
+- [License](#license)
+
+## Description
+
+The main objective of this project is to facilitate the early diagnosis of colon cancer through the automatic analysis of medical images using convolutional neural networks (CNN). The application includes an interactive dashboard developed with Streamlit to visualize and analyze the results.
+
+## Requirements
+
+- Python 3.8 or higher
+- Jupyter Notebook or Google Colab
+- Streamlit
+- Dependencies listed in `requirements.txt`
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/JonesProgrammer/Final_Project.git
+   cd Final_Project
+   ```
+
+2. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Execution Instructions
+
+1. Open and run the `.ipynb` file in Jupyter Notebook or Google Colab, following the order of the cells.
+
+2. Once finished, navigate in the terminal to the folder where `Dashboard.py` is located.
+
+3. Launch the dashboard with Streamlit:
+   ```bash
+   streamlit run Dashboard.py
+   ```
+
+4. Open the indicated local address in your browser to view the results.
+
+## Project Structure
+
+```
+├── Dashboard.py           # Interactive dashboard with Streamlit
+├── requirements.txt       # List of dependencies
+├── ...                    # Other scripts and files
+└── README.md
+```
+
+## License
+
+This project is under the MIT license. See the LICENSE file for more details.
