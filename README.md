@@ -9,8 +9,6 @@ This application uses a deep learning model to assist in the detection of colon 
 - [Installation](#installation)
 - [Execution Instructions](#execution-instructions)
 - [Project Structure](#project-structure)
-- [Results](#results)
-- [Contributions](#contributions)
 - [License](#license)
 
 ## Description
