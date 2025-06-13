@@ -53,7 +53,7 @@ The main objective of this project is to facilitate the early diagnosis of colon
 ```
 ├── Dashboard.py           # Interactive dashboard with Streamlit
 ├── requirements.txt       # List of dependencies
-├── ...                    # Other scripts and files
+├── COLORCANCERtest.ipynb               # All the project functionality code
 └── README.md
 ```
 
