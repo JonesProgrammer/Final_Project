@@ -59,4 +59,4 @@ The main objective of this project is to facilitate the early diagnosis of colon
 
 ## License
 
-This project is under the MIT license. See the LICENSE file for more details.
+This project is under the MIT license.
